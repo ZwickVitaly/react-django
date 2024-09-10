@@ -1,0 +1,26 @@
+[
+{
+  "model": "products.product",
+  "pk": 1,
+  "fields": {
+    "title": "Ботинки",
+    "price": "99.90"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 2,
+  "fields": {
+    "title": "Шляпа",
+    "price": "49.75"
+  }
+},
+{
+  "model": "products.product",
+  "pk": 3,
+  "fields": {
+    "title": "Футботка",
+    "price": "15.43"
+  }
+}
+]
