@@ -15,7 +15,7 @@ services:
       - "80:80"
     volumes:
       - static_volume:/usr/share/nginx/html/static/admin-static
-      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./nginx/nginx.conf.template:/etc/nginx/templates/default.conf.template
       - ./frontend:/usr/share/nginx/html/
     depends_on:
       - backend
